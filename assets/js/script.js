@@ -34,7 +34,10 @@ function submit() {
       icon: "success",
       button: "Aww yiss!",
     });
-    // Code to handle successful form submission
+
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("subject").value = "";
   }
 }
 
