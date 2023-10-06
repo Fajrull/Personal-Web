@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Urbanist:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Sweet Alert -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+      integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/img/profile.gif" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="navbar">
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/project.html">Project</a></li>
+          <li><a href="/pages/skills.html">Skills</a></li>
+          <li><a href="/pages/certifications.html">Certifications</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Contact Start -->
+    <section class="contact" id="contact">
+      <div class="contact-page">
+        <h1>📱 Get In Touch</h1>
+        <div class="contact-description">
+          <p>
+            Feel free to get in touch with me whenever you need assistance or
+            want to discuss anything. I'm here to help you with pleasure! 🚀
+          </p>
+        </div>
+
+        <form name="portofolio-contact-form">
+          <div class="form-top">
+            <div class="form-title">
+              <label for="name">Nama :</label>
+              <input
+                type="text"
+                id="name"
+                name="nama"
+                placeholder="Your name..."
+              />
+            </div>
+            <div class="form-title">
+              <label for="email">Email :</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email..."
+              />
+            </div>
+          </div>
+          <div class="form-bottom">
+            <label for="subject">Message :</label>
+            <textarea
+              id="subject"
+              name="pesan"
+              cols="30"
+              rows="10"
+              placeholder="Write something ..."
+            ></textarea>
+          </div>
+          <div class="contact-btn">
+            <button id="submit-form" type="submit">
+              Submit<i class="fa-regular fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- Contact End -->
+    </section>
+
+    <!-- Footer Start -->
+    <footer>
+      Copyright ©
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      - Made with ❤️ by fajrulkq
+    </footer>
+    <!-- Footer End -->
+
+    <!-- File Javascript -->
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
